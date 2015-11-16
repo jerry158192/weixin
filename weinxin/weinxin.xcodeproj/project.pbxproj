@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D847C7F61BFA356B00BDAB7D /* student.m in Sources */ = {isa = PBXBuildFile; fileRef = D847C7F51BFA356B00BDAB7D /* student.m */; settings = {ASSET_TAGS = (); }; };
+		D847C7F91BFA35BA00BDAB7D /* LGJDoorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D847C7F81BFA35BA00BDAB7D /* LGJDoorCell.m */; settings = {ASSET_TAGS = (); }; };
 		D869418D1BF9F14100E9F11C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D869418C1BF9F14100E9F11C /* main.m */; };
 		D86941901BF9F14100E9F11C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D869418F1BF9F14100E9F11C /* AppDelegate.m */; };
 		D86941931BF9F14100E9F11C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86941921BF9F14100E9F11C /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D847C7F41BFA356B00BDAB7D /* student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		D847C7F51BFA356B00BDAB7D /* student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = student.m; sourceTree = "<group>"; };
+		D847C7F71BFA35BA00BDAB7D /* LGJDoorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGJDoorCell.h; sourceTree = "<group>"; };
+		D847C7F81BFA35BA00BDAB7D /* LGJDoorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGJDoorCell.m; sourceTree = "<group>"; };
 		D86941881BF9F14100E9F11C /* weinxin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weinxin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D869418C1BF9F14100E9F11C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D869418E1BF9F14100E9F11C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				D869418F1BF9F14100E9F11C /* AppDelegate.m */,
 				D86941911BF9F14100E9F11C /* ViewController.h */,
 				D86941921BF9F14100E9F11C /* ViewController.m */,
+				D847C7F41BFA356B00BDAB7D /* student.h */,
+				D847C7F51BFA356B00BDAB7D /* student.m */,
+				D847C7F71BFA35BA00BDAB7D /* LGJDoorCell.h */,
+				D847C7F81BFA35BA00BDAB7D /* LGJDoorCell.m */,
 				D86941941BF9F14100E9F11C /* Main.storyboard */,
 				D86941971BF9F14100E9F11C /* Assets.xcassets */,
 				D86941991BF9F14100E9F11C /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D847C7F91BFA35BA00BDAB7D /* LGJDoorCell.m in Sources */,
 				D86941931BF9F14100E9F11C /* ViewController.m in Sources */,
 				D86941901BF9F14100E9F11C /* AppDelegate.m in Sources */,
 				D869418D1BF9F14100E9F11C /* main.m in Sources */,
+				D847C7F61BFA356B00BDAB7D /* student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				D86941B71BF9F14100E9F11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D86941B81BF9F14100E9F11C /* Build configuration list for PBXNativeTarget "weinxinTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				D86941BA1BF9F14100E9F11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D86941BB1BF9F14100E9F11C /* Build configuration list for PBXNativeTarget "weinxinUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				D86941BD1BF9F14100E9F11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
